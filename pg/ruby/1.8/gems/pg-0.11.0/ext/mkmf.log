@@ -47,7 +47,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘PQconnectionUsedPassword’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccPGbuub.out
+lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccegisaf.out
 checked program was:
 /* begin */
 1: /*top*/
@@ -76,7 +76,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘PQisthreadsafe’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccENLJhl.out
+lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccqIG1fD.out
 checked program was:
 /* begin */
 1: /*top*/
@@ -105,7 +105,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘PQprepare’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccGHy7y2.out
+lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//cckVwEUk.out
 checked program was:
 /* begin */
 1: /*top*/
@@ -134,7 +134,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘PQexecParams’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccnKFrDE.out
+lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//cc6GUrdB.out
 checked program was:
 /* begin */
 1: /*top*/
@@ -163,7 +163,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘PQescapeString’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccpNrmme.out
+lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccOOiEBF.out
 checked program was:
 /* begin */
 1: /*top*/
@@ -192,7 +192,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘PQescapeStringConn’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccCwaakJ.out
+lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccGOsBUa.out
 checked program was:
 /* begin */
 1: /*top*/
@@ -221,7 +221,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘PQgetCancel’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccQGxoiO.out
+lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccpHadPD.out
 checked program was:
 /* begin */
 1: /*top*/
@@ -250,7 +250,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘lo_create’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccIYMwO8.out
+lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccwGdpxh.out
 checked program was:
 /* begin */
 1: /*top*/
@@ -279,7 +279,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘pg_encoding_to_char’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//ccsQ8N1J.out
+lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//cc0avO6k.out
 checked program was:
 /* begin */
 1: /*top*/
@@ -308,7 +308,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘PQsetClientEncoding’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//cce95ZM2.out
+lipo: can't figure out the architecture type of: /var/folders/00/gfzk38cd6hl9kvjm60dld5_00000gp/T//cc3RsS2J.out
 checked program was:
 /* begin */
 1: /*top*/
