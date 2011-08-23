@@ -1,0 +1,46 @@
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby extconf.rb 
+checking for pg_config... yes
+Using config values from /usr/bin/pg_config
+checking for libpq-fe.h... yes
+checking for libpq/libpq-fs.h... yes
+checking for PQconnectdb() in -lpq... yes
+checking for PQconnectionUsedPassword()... yes
+checking for PQisthreadsafe()... yes
+checking for PQprepare()... yes
+checking for PQexecParams()... yes
+checking for PQescapeString()... yes
+checking for PQescapeStringConn()... yes
+checking for PQgetCancel()... yes
+checking for lo_create()... yes
+checking for pg_encoding_to_char()... yes
+checking for PQsetClientEncoding()... yes
+checking for struct pgNotify.extra in libpq-fe.h... yes
+checking for unistd.h... yes
+creating extconf.h
+creating Makefile
+
+make
+Makefile:128: warning: overriding commands for target `/Users/DonnyMac/Documents/Aptana'
+Makefile:122: warning: ignoring old commands for target `/Users/DonnyMac/Documents/Aptana'
+Makefile:128: warning: overriding commands for target `Studio'
+Makefile:122: warning: ignoring old commands for target `Studio'
+Makefile:128: warning: overriding commands for target `3'
+Makefile:122: warning: ignoring old commands for target `3'
+gcc -I. -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -I/usr/include -fno-common -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   -c compat.c
+gcc -I. -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -I/usr/include -fno-common -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   -c pg.c
+cc -arch i386 -arch x86_64 -pipe -bundle -undefined dynamic_lookup -o pg_ext.bundle compat.o pg.o -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L. -arch i386 -arch x86_64  -L/usr/lib    -lruby -lpq  -lpthread -ldl  
+
+make install
+Makefile:128: warning: overriding commands for target `/Users/DonnyMac/Documents/Aptana'
+Makefile:122: warning: ignoring old commands for target `/Users/DonnyMac/Documents/Aptana'
+Makefile:128: warning: overriding commands for target `Studio'
+Makefile:122: warning: ignoring old commands for target `Studio'
+Makefile:128: warning: overriding commands for target `3'
+Makefile:122: warning: ignoring old commands for target `3'
+mkdir -p /Users/DonnyMac/Documents/Aptana
+mkdir -p Studio
+mkdir -p 3
+mkdir -p Workspace/App2/pg/ruby/1.8/gems/pg-0.11.0/lib
+/usr/bin/install -c -m 0755 pg_ext.bundle /Users/DonnyMac/Documents/Aptana Studio 3 Workspace/App2/pg/ruby/1.8/gems/pg-0.11.0/lib
+install: /Users/DonnyMac/Documents/Aptana: Inappropriate file type or format
+make: *** [Workspace/App2/pg/ruby/1.8/gems/pg-0.11.0/lib/pg_ext.bundle] Error 71
